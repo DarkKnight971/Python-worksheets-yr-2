@@ -7,7 +7,7 @@ km1 = m1 / 1000
 
 print("Converted lengths :", m1, "m & ", km1, "km \n")
 
-m2= eval(input("Enter length(in m) : ))
+m2= eval(input("Enter length(in m) : "))
 
 cm2 = m2 * 100
 km2 = m2 / 1000
