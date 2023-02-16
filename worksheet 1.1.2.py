@@ -13,4 +13,4 @@ prcnt = (total / 500) * 100
 print("\n")
 print("Total marks obtained : ", total)
 print("Average marks obtained : ", avg)
-print("Percentage obatined : ", prcnt)
+print("Percentage obatined : ", prcnt, "%")
