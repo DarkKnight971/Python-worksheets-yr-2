@@ -1,4 +1,4 @@
-#2. 
+#2. WAP to check Whether entered number is Armstrong or Not?
 
 num = int(input("Enter an integer : "))
 temp = num
