@@ -1,6 +1,7 @@
 '''1.	Write a python program to calculate area of 10 different circles.
-   Given the pie = 22/7 and radius of the circles entered by user using Simple Function ,
-   Parameterized Function , Return Type with function and return type with parameterized Functions.'''
+   Given the pie = 22/7 and radius of the circles entered by user using
+   Simple Function , Parameterized Function , Return Type with function
+   and return type with parameterized Functions.'''
 
 def area1() :
   l = []
