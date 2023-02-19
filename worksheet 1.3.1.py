@@ -21,7 +21,7 @@ ch = int(input("Enter your choice (1/2) : "))
 
 if ch == 1 :
   print("Area of circles : \n", area1())
-else if ch == 2 :
+elif ch == 2 :
   run = 10
 
   while (run > 0) :
