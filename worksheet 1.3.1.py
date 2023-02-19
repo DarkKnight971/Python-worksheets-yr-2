@@ -21,16 +21,12 @@ ch = int(input("Enter your choice (1/2) : "))
 if ch == 1 :
   print("Area of circles :")
   for x in area1() :
-      print(x, "sq.unit\n")
+      print(x, "sq.unit")
 elif ch == 2 :
   run = 10
 
   while (run > 0) :
     u = eval(input("Enter a number : "))
-
-    if (type(u) == int) or (type(u) == float) :
-      print("Area of circle : ", area2(u), "sq. unit\n")
-    else :
-      print("Inserted input isn't suitable for function use.\n")
+    print("Area of circle : ", area2(u), "sq. unit\n")
     
     run -= 1
