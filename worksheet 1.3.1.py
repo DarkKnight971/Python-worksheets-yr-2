@@ -21,7 +21,7 @@ ch = int(input("Enter your choice (1/2) : "))
 if ch == 1 :
   print("Area of circles :")
   for x in area1() :
-      print(x, "sq.unit")
+      print(x, "sq.unit\n")
 elif ch == 2 :
   run = 10
 
