@@ -1,6 +1,7 @@
 '''2.	Write a python program to print Multiplication tables from 2 to 20
-      whether table values entered by user using Simple Function , Parameterized Function ,
-      Return Type with function and return type with parameterized Functions.'''
+      whether table values entered by user using Simple Function , 
+      Parameterized Function , Return Type with function and return type
+      with parameterized Functions.'''
 
 def table1() :
   for i in range(2, 21) :
