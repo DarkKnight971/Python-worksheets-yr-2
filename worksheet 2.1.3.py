@@ -10,9 +10,9 @@ def string_box(s) :
   
   if (l >= 3) :
     if s[-3 : ] == 'ing' :
-      s + "ly"
+      s = s + "ly"
     else :
-      s + "ing"
+      s = s + "ing"
   
   return s
 
