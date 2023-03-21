@@ -14,4 +14,4 @@ for x in b :
   if x not in a :
     c.append(x)
     
-print(c)
+print("Uncommon words : ", c)
