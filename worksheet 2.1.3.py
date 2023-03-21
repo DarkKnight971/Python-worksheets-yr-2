@@ -5,19 +5,19 @@
     String : 'abc' Expected Result : 'abcing' Sample String : 'string'
     Expected Result : 'stringly'''
 
-def string_box(str) :
+def string_box(s) :
   l = len(s)
   
   if (l >= 3) :
     if s[-3 : ] == 'ing' :
-      s+"ly"
+      s + "ly"
     else :
       s + "ing"
   
   return s
 
 s_str = input("Enter a string : ")
-t = s
+t = s_str
 
 e_str = string_box(s_str)
 
