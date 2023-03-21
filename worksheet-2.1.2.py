@@ -1,4 +1,4 @@
-#Python program to find uncommon words from two Strings
+#2. Python program to find uncommon words from two Strings
 
 a = input("Enter first string : ")
 b = input("Enter second string : ")
@@ -14,4 +14,4 @@ for x in b :
   if x not in a :
     c.append(x)
     
-print(x)
+print(c)
