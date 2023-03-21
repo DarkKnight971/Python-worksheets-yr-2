@@ -1,12 +1,13 @@
-def checkPalindrome(s) :
+def checkPalindrome(str) :
   for i in range(0, int(len(str)/2)) :
-    if s[i] != str[len(str) - i - 1] :
+    if str[i] != str[len(str) - i - 1] :
       return False
   return True
 
 s = input("Enter a string : ")
+check = checkPalinrome(s)
 
-if (checkPAlindrome(s)) :
+if check :
   print(f"{s} is a Palindrome")
 else :
   print(f"{s} is not a Palindrome")
