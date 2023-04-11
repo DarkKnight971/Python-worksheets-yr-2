@@ -1,4 +1,4 @@
-'''Write a Python program to replace last value of tuples in a list'''
+#Write a Python program to replace last value of tuples in a list
 
 t = 23, 29, 43, 59, 67
 print("Original tuple : ", t)
