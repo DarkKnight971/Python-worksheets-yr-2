@@ -18,9 +18,9 @@ class checkSum:
         return -1  
   
 def main():
-    list1 = [1, 2, 4, 5, 11]  
-    t = 6  
-    obj = checkSum(list1, t)  
+    array = [1, 2, 4, 5, 11]  
+    target = 6  
+    obj = checkSum(array, target)  
     print(obj.solution())
   
 if __name__ == "__main__" :
