@@ -8,7 +8,7 @@ def main() :
 		d = int(input("Enter an integer : "))
 		data.append(d)
 	
-	insertionSort(data)
+	insertionSort(data, n)
 	print('Sorted Array in Ascending Order:')
 	print(data)
 
