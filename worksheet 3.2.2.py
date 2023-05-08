@@ -3,25 +3,28 @@
       a specific target number.'''
 
 class checkSum:  
-    def __init__(self, array, target):  
-        self.array = array  
-        self.target = target  
+    def __init__(self, list1, target, length):  
+        self.list1 = list1  
+        self.target = target
+        self.length = length
           
     def solution(self):  
-        l = len(array)  
-          
-        for i in range(l - 1):  
-            for j in range(i+1, l):  
-                if array[i] + array[j] == self.target:  
+        for i in range(length - 1):  
+            for j in range(i + 1, length):  
+                if list1[i] + list1[j] == self.target:  
                     new_list = i, j  
                     return list(new_list)  
         return -1  
-  
-def main():
-    array = [1, 2, 4, 5, 11]  
-    target = 6  
-    obj = checkSum(array, target)  
-    print(obj.solution())
-  
+
 if __name__ == "__main__" :
-    main()
+    list1 = []
+    length = int(input("Enter length of array : "))
+    t = length
+    while t > 0 :
+        l = int(input("Enter array element : "))
+        list1.append(l)
+        t -= 1
+    
+    target = int(input("Enter target number : "))
+    obj = checkSum(list1, target, length)
+    print(obj.solution())
