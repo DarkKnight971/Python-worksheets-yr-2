@@ -3,10 +3,12 @@
 def main() :
 	data = []
 	n = int(input("Enter size of array : "))
+	t = n
 	
-	for i in range(0, n) :
+	while t > 0 :
 		d = int(input("Enter an integer : "))
 		data.append(d)
+		t -= 1
 	
 	insertionSort(data, n)
 	print('Sorted Array in Ascending Order:')
